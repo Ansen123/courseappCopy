@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Courseapp": {
+    "courseapp": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Courseapp:build:production"
+              "browserTarget": "courseapp:build:production"
             },
             "development": {
-              "browserTarget": "Courseapp:build:development"
+              "browserTarget": "courseapp:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Courseapp:build"
+            "browserTarget": "courseapp:build"
           }
         },
         "test": {
@@ -97,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "e866dc39-7da6-4cc2-866c-2c92c99a0e9f"
   }
 }
