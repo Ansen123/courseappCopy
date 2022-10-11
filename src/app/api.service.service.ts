@@ -8,6 +8,6 @@ export class ApiServiceService {
 
   constructor(private http:HttpClient) { }
   viewCourse=()=>{
-    return this.http.get("https://jsonplaceholder.typicode.com/users")
+    return this.http.get("http://mylinkurcodesapp.herokuapp.com/getcourses")
   }
 }
