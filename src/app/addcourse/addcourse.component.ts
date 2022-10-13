@@ -8,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class AddcourseComponent implements OnInit {
 
   constructor() { }
-
+  courseTitle=""
+  courseDescription=""
+  courseDuration=""
+  courseDate=""
+  courseVenue=""
   ngOnInit(): void {
   }
 

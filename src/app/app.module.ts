@@ -8,6 +8,7 @@ import { ViewcourseComponent } from './viewcourse/viewcourse.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 const appRoute:Routes = [
   {
     path:"",component:AddcourseComponent
@@ -27,7 +28,11 @@ const appRoute:Routes = [
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot(appRoute),
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
+  
+    
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
